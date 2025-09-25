@@ -5,8 +5,8 @@
     font-family: Georgia, 'Times New Roman', Times, serif 
 }
 body{
-    background-color: #ffffff;
-    border: 3px solid #ffffff;
+    background-color: #fefdf0;
+    
     height: 100vh;
 }
 header{
@@ -21,7 +21,7 @@ header h1{
 }
 nav{
     background-color: black;
-    height: 2rem;
+    height: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,13 +39,34 @@ nav ul li{
     padding: 0.25rem 1rem 0.5rem 1rem;
 }
 main{
+  
     min-height: 555px;
-    display: flex;
-   justify-content: center; 
-   align-items: center;
-   padding: 3%; 
-   font-size: 200%; 
-   background-image: url();
+    padding: 3%; 
+    font-size: 200%;
+    min-height: 555px;
+    padding: 3%; 
+    font-size: 200%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin-bottom: 40px;
+    background-color: hsl(233, 6%, 30%);
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 7px black;
+    color: hwb(0 100% 0%);   
+}
+h1{
+    color: hsl(233, 6%, 30%);
+}
+img{
+  
+    border: solid 7px black;
+    margin-bottom: 40px;
+    background-color: hsl(233, 6%, 30%);
+    border-radius: 10px;
 }
 footer{
     display: flex;

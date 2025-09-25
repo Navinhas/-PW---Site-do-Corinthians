@@ -1,74 +1,60 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif ; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
 }
-body{
-    background-color: #ffffff;
-    height: 100vh;
 
+body {
+    background-color: #fefdf0;
+    min-height: 100vh;
 }
-header{
+
+header {
     background-color: hsl(233, 6%, 30%);
     height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-header h1{
+
+header h1 {
     color: hwb(0 100% 0%);
 }
-nav{
+
+nav {
     background-color: black;
-    height: 2rem;
+    height: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1%;
 }
-nav ul{
-    border: #000000;
+
+nav ul {
     display: flex;
     gap: 3rem;
 }
-nav ul li{
-   
-    color:rgb(94, 94, 248);
+
+nav ul li {
+    color: rgb(94, 94, 248);
     list-style-type: none;
     padding: 0.25rem 1rem 0.5rem 1rem;
 }
-main{
+
+main {
     min-height: 555px;
-   padding: 3%; 
-   font-size: 200%;
+    padding: 3%; 
+    font-size: 200%;
     background-image: url(imagens/imagem\ \ de\ fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border: solid 3px black;
 }
-img{
-    position: absolute;
-    top: 25%;
-    left: 65%;
-
-}
-h2{
-    position: absolute;
-    top: 80%;
-    left: 65%;
-}
-h3{
-    position: absolute;
-    top: 133%;
-    left: 65%;
-}
-main.p{
-    position: absolute;
-    top: 60%;
-    left: 73%; 
-}
-.left{
+.left {
     margin: 1rem;
     width: 48%;
     display: flex;
@@ -76,25 +62,22 @@ main.p{
     gap: 1.5rem;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center; 
-   align-items: center;
-   height: 100px;
-   background-color: hsl(233, 6%, 30%);
-   border-top: solid 28px black;
-   color: hwb(0 100% 0%);
+    align-items: center;
+    height: 100px;
+    background-color: hsl(233, 6%, 30%);
+    border-top: solid 28px black;
+    color: hwb(0 100% 0%);
 }
-a{
+
+a {
     text-decoration: none;
-    color: #f5f5f5 ;
+    color: #f5f5f5;
 }
-div{
+
+p {
     width: 50%;
+    
 }
-
-
-
-
-
-
